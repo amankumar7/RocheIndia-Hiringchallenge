@@ -34,9 +34,17 @@ Visit `http://localhost:8080` in your browser or a tool like Postman to test the
 
 ## Unit Tests:
 
-Run unit tests using the following command:
+Run unit tests using the following command: `./gradlew test`
 
-```bash
-./gradlew test
+
+## Third-party libraries used :
+1. ### Swagger:
+   Swagger is a popular tool for API documentation, and it allows you to describe your API in a standardized way using the OpenAPI Specification.
+   1. Visit `http://localhost:8080/api-docs` in your browser for OpenAPI documentation.
+   2. Visit `http://localhost:8080/swagger-ui.html` in your browser to access an interactive and user-friendly interface that allows you to explore and test the API directly from the documentation.
+
+2. ### Mockito:
+   Mockito is a popular mocking framework for Java that is used to create and manage mock objects in unit testing. Mockito helps to isolate the code under test by creating mock objects 
+   that simulate the behavior of real objects, allowing for controlled and focused testing
 
 
